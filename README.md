@@ -1,5 +1,6 @@
 This is my second Odin project task - making a landing page. Here I display what I have learned from the CSS display techniques (block, inline, inline-block, and flexbox).
 
+You can visit my landing page here: https://trimadon.github.io/landing-page/
 
 credits go to:
 
