@@ -140,6 +140,42 @@ body {
     font-weight: 800;
 }
 
+.cta-section {
+    margin: 120px 240px;
+    background-color: #3882F6;
+    padding: 50px 150px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    color: #F9FAF8;
+}
+
+.text *{
+    margin: 0;
+    padding: 0;
+}
+
+.text .big {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.text .small {
+    font-size: 18px;
+}
+
+.cta-section button {
+    background-color: transparent;
+    color: #F9FAF8;
+    padding: 8px 32px;
+    font-size: 18px;
+    font-weight: 900;
+    border: #F9FAF8 2px solid;
+    border-radius: 8px;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
