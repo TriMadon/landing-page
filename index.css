@@ -50,8 +50,12 @@ body {
     flex-wrap: wrap;
 }
 
-.hero-section img {
-    flex-shrink: 0;
+.hero-section > img {
+    object-fit: cover;
+    max-width: 600px;
+    max-height: 300px;
+    width: 100%;
+    height: auto;
 }
 
 .hero {
