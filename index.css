@@ -83,6 +83,36 @@ body {
     border-radius: 5px;
 }
 
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.info-section .header-text {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card img {
+    padding: 8px;
+    width: 150px;
+}
+
+.card p {
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
