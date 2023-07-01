@@ -148,7 +148,7 @@ body {
 }
 
 .cta-section {
-    margin: 120px 240px;
+    margin: 120px 15%;
     background-color: #3882F6;
     padding: 50px 10%;
     border-radius: 8px;
@@ -156,6 +156,7 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    min-width: 100px;
     gap: 32px;
     color: #F9FAF8;
 }
