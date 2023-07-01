@@ -4,13 +4,11 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
     margin: 0;
 }
 
 .header-section {
-    padding: 16px 240px;
+    padding: 16px 15%;
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
@@ -20,6 +18,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     gap: 32px;
     margin-bottom: 150px;
@@ -33,6 +32,7 @@ body {
 .header .links {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: 24px;
 }
 
@@ -43,10 +43,11 @@ body {
 
 .hero-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 48px;
     margin-bottom: 150px;
+    flex-wrap: wrap;
 }
 
 .hero-section img {
@@ -56,6 +57,7 @@ body {
 .hero {
     margin: 0;
     padding: 0;
+    flex: 1 1 300px;
 }
 
 .hero .main-text {
@@ -100,6 +102,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 32px;
+    flex-wrap: wrap;
 }
 
 .card img {
@@ -115,7 +118,7 @@ body {
 
 .quote-section {
     background-color: #E5E7EB;
-    padding: 100px 300px;
+    padding: 100px 35%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -143,11 +146,12 @@ body {
 .cta-section {
     margin: 120px 240px;
     background-color: #3882F6;
-    padding: 50px 150px;
+    padding: 50px 10%;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     gap: 32px;
     color: #F9FAF8;
 }
