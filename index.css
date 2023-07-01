@@ -90,10 +90,10 @@ body {
 }
 
 .info-section {
+    margin: 0 10% 100px 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
 }
 
 .info-section .header-text {
